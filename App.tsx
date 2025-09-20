@@ -1,12 +1,12 @@
 import React, { useState, useCallback, useEffect, useMemo } from 'react';
 import { MEMBERS, SHIFT_SCHEDULE, MEMBER_READINGS } from './constants';
 import { type AllMemberWorkStatus } from './types';
-import Header from './components/Header';
-import MemberButton from './components/MemberButton';
-import Dashboard from './components/Dashboard';
-import AdminModal from './components/AdminModal';
-import NextShiftModal from './components/NextShiftModal';
-import InfoModal from './components/InfoModal';
+import Header from './Header';
+import MemberButton from './MemberButton';
+import Dashboard from './Dashboard';
+import AdminModal from './AdminModal';
+import NextShiftModal from './NextShiftModal';
+import InfoModal from './InfoModal';
 
 const getTodayKey = () => {
   const today = new Date();
@@ -172,7 +172,6 @@ const App: React.FC = () => {
             <MemberButton
               key={name}
               name={name}
-// FIX: Corrected a typo from `memberWork-status` to `memberWorkStatus`.
               status={memberWorkStatus[name]?.status ?? 'absent'}
               onClick={handleToggleAttendance}
             />

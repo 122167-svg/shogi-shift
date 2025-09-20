@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { type ShiftDay } from '../types';
+import { type ShiftDay } from './types';
 import KanaKeyboard from './KanaKeyboard';
 
 interface DashboardProps {

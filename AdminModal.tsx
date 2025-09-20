@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { type AllMemberWorkStatus, type WorkSession } from '../types';
-import { MEMBERS } from '../constants';
+import { type AllMemberWorkStatus, type WorkSession } from './types';
+import { MEMBERS } from './constants';
 
 interface AdminModalProps {
   isOpen: boolean;

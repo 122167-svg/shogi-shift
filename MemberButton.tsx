@@ -1,5 +1,5 @@
 import React from 'react';
-import { type AttendanceStatus } from '../types';
+import { type AttendanceStatus } from './types';
 
 interface MemberButtonProps {
   name: string;

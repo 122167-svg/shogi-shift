@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { MEMBER_READINGS } from '../constants';
+import { MEMBER_READINGS } from './constants';
 
 interface KanaKeyboardProps {
   onSelect: (initial: string | null) => void;
