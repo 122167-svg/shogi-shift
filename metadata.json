@@ -1,0 +1,5 @@
+{
+  "name": "Shogi Club Shift Manager",
+  "description": "An attendance management app for the Sugamo Gakuen Shogi Club's cultural festival, designed with a modern and user-friendly interface. It allows for easy clocking in and out for members.",
+  "requestFramePermissions": []
+}
